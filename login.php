@@ -14,13 +14,12 @@ session_destroy();
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="cek_login.php"><b>Welcome</b></a>
+    <a href="cek_login.php"><b>Welcome,</b></a>
+    <p>SURAT PERINTAH LEMBUR</p>
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Surat Perintah Lembur</p>
-
       <form action="data/login_check.php" method="post">
         <div class="input-group mb-3">
           <input type="text" class="form-control" placeholder="Username" name="username">
